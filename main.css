@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background-color:#282828;
+    color: #e4f1fe;
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+img {
+    width: 92%;
+    height: 250px;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+form {
+    padding: 30px;
+}
+h1 {
+    padding: 10px;
+}
+
+@media screen and (min-width: 450px) {
+    img {
+        width: 46%;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    img {
+        width: 31%;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    img {
+        width: 23%;
+    }
+}
